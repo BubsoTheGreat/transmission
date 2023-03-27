@@ -3718,19 +3718,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"third-party/dht",
-					"third-party/fast_float/include",
-					"third-party/wide-integer",
-					"third-party/libb64/include",
-					"third-party/libdeflate",
-					"third-party/libpsl/include",
-					"third-party/libutp/include",
-					"third-party/utfcpp/source",
-					"third-party/jsonsl",
-					"third-party/wildmat",
-				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DWITH_UTP",
@@ -3743,13 +3730,24 @@
 				PRODUCT_NAME = transmission;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"third-party/dht",
+					"third-party/fast_float/include",
 					"third-party/fmt/include",
+					"third-party/jsonsl",
+					"third-party/libb64/include",
+					"third-party/libdeflate",
 					"third-party/libevent/include",
+					"third-party/libnatpmp",
+					"third-party/libpsl/include",
+					"third-party/libutp/include",
+					"third-party/miniupnpc",
+					"third-party/utfcpp/source",
+					"third-party/wide-integer",
+					"third-party/wildmat",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"third-party/libnatpmp",
-					"third-party/miniupnpc",
+					"."
 				);
 			};
 			name = Debug;
@@ -3962,19 +3960,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"third-party/dht",
-					"third-party/fast_float/include",
-					"third-party/wide-integer",
-					"third-party/libb64/include",
-					"third-party/libdeflate",
-					"third-party/libpsl/include",
-					"third-party/libutp/include",
-					"third-party/utfcpp/source",
-					"third-party/jsonsl",
-					"third-party/wildmat",
-				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DWITH_UTP",
@@ -3987,13 +3972,24 @@
 				PRODUCT_NAME = transmission;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"third-party/dht",
+					"third-party/fast_float/include",
 					"third-party/fmt/include",
+					"third-party/jsonsl",
+					"third-party/libb64/include",
+					"third-party/libdeflate",
 					"third-party/libevent/include",
+					"third-party/libnatpmp",
+					"third-party/libpsl/include",
+					"third-party/libutp/include",
+					"third-party/miniupnpc",
+					"third-party/utfcpp/source",
+					"third-party/wide-integer",
+					"third-party/wildmat",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"third-party/libnatpmp",
-					"third-party/miniupnpc",
+					".",
 				);
 			};
 			name = Release;
@@ -4278,19 +4274,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"third-party/dht",
-					"third-party/fast_float/include",
-					"third-party/wide-integer",
-					"third-party/libb64/include",
-					"third-party/libdeflate",
-					"third-party/libpsl/include",
-					"third-party/libutp/include",
-					"third-party/utfcpp/source",
-					"third-party/jsonsl",
-					"third-party/wildmat",
-				);
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DWITH_UTP",
@@ -4303,13 +4286,24 @@
 				PRODUCT_NAME = transmission;
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"third-party/dht",
+					"third-party/fast_float/include",
 					"third-party/fmt/include",
+					"third-party/jsonsl",
+					"third-party/libb64/include",
+					"third-party/libdeflate",
 					"third-party/libevent/include",
+					"third-party/libnatpmp",
+					"third-party/libpsl/include",
+					"third-party/libutp/include",
+					"third-party/miniupnpc",
+					"third-party/utfcpp/source",
+					"third-party/wide-integer",
+					"third-party/wildmat",
 				);
 				USER_HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"third-party/libnatpmp",
-					"third-party/miniupnpc",
+					".",
 				);
 			};
 			name = "Release - Debug";
